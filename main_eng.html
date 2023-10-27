@@ -3,29 +3,39 @@
 <head>
     <title>First Web Page</title>
     <meta charset="'utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>
-        <h4>Language</h6>
-    <ul>
-        <li><a href="index.html">KR</a><img src="images/korean-flag.png" width="30"></li>
-        <li><a href="main_eng.html">US</a><img src="images/american-flag.png" width="30"></li>
-    </ul>
-    <p>
-        I'm interested in learning and practicing English.<br>
-        So I translated these docs written in korean into english manually by myself, trying not to use translator as possible as I can. <br>
-        So there may be some grammatical errors or incorrect word choices.<br>
-    </p>
+    <div id="language-eng">
+        <div>
+            <h4>Language</h6>
+            <ul>
+                <li><a href="index.html">KR</a><img src="images/korean-flag.png" width="30"></li>
+                <li><a href="main_eng.html">US</a><img src="images/american-flag.png" width="30"></li>
+            </ul>
+        </div>
+        <div id="comment">
+            <p>
+                I'm interested in learning and practicing English.<br>
+                So I translated these docs written in korean into english manually by myself, trying not to use translator as possible as I can. <br>
+                So there may be some grammatical errors or incorrect word choices.<br>
+            </p>
+        </div>
+    </div>
     <h1><a href="main_eng.html">WEB</a></h1>
-    <ol>
-        <li><a href="html_eng.html">HTML</a></li>
-        <li><a href="css_eng.html">CSS</a></li>
-        <li><a href="javascript_eng.html">JavaScript</a></li>
-    </ol>
-    <p>
-        <strong>This is first <u>web page</u></strong>. Nice to meet you! 
-            I'm interested in programming because it attracts me 
-            that I can make my own creative works using logical thinking.
-    </p>
+    <div id="grid">
+        <ol>
+            <li><a href="html_eng.html">HTML</a></li>
+            <li><a href="css_eng.html">CSS</a></li>
+            <li><a href="javascript_eng.html">JavaScript</a></li>
+        </ol>
+        <div id="article">
+            <p>
+                <strong>This is first <u>web page</u></strong>. Nice to meet you! 
+                    I'm interested in programming because it attracts me 
+                    that I can make my own creative works using logical thinking.
+            </p>
+        </div>
+    </div>
 </body>
 </html>
